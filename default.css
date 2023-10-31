@@ -1,0 +1,30 @@
+body {
+    
+    background-image: url("graphics/webpagebackground.jpg");
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+}
+   
+h1 {
+    color: purple; 
+    font-size: 24;
+}
+
+
+
+ */
+p{
+    font-family: 'Merriweather', serif;
+}
+
+#titletext{
+    position: absolute; top: 0px; left: 50%; transform: translate(-50%);
+    
+  
+
+}
+#bodytext{
+    postion: absolute; top: 300px; 
+    padding: 10px;
+}
