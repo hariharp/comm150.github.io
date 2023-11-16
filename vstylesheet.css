@@ -11,11 +11,12 @@ header {
     left: 0px;
     padding: 0 44.9%;
     border-radius: 40px;
+    
 }
 
 nav {
-    position: fixed;
-    top: 48px;
+    position: absolute;
+    top: 55px;
     right: 15px; /* Position the navigation menu to the right side */
     padding: 10px;
     background-color: rgba(255, 112, 143, 0.80);
@@ -156,6 +157,7 @@ body {
             background-image: url("graphics/b.jpg"); 
             background-repeat: no-repeat;
             background-attachment: fixed;
+            
             
     
 }
