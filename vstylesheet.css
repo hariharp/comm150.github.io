@@ -9,7 +9,7 @@ header {
     position: absolute;
     top: 10px;
     left: 0px;
-    padding: 0 44.9%;
+    padding: 0 860px;
     border-radius: 40px;
     
 }
@@ -17,7 +17,7 @@ header {
 nav {
     position: absolute;
     top: 55px;
-    right: 15px; /* Position the navigation menu to the right side */
+    left: 3px; 
     padding: 10px;
     background-color: rgba(255, 112, 143, 0.80);
     border-radius: 40px;
@@ -47,9 +47,9 @@ nav ul li a {
 main {
     position: absolute;
     top: 100px;
-    left: 40%;
-    transform: translateX(-40%);
-    width: 80%;
+    left: 750px;
+    transform: translateX(-600px);
+    width: 160px;
     
 
 }
@@ -63,10 +63,10 @@ main article {
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(4,1fr);
     grid-gap: 10px;
-    width: 70%;
+    width: 1000px;
     margin-right: 20px;
     position: absolute;
-    right: -490px;
+    left: 990px;
     top: 0;
   }
   
@@ -82,30 +82,30 @@ main article {
   .column img {
     margin-top: 8px;
     vertical-align: middle;
-    width: 100%;
+    width: 200px;
   }
   
   @media screen and (max-width: 800px) {
     .column {
-      flex: 50%;
-      max-width: 50%;
+      flex: 100px;
+      max-width: 100px;
     }
   }
   
   
   @media screen and (max-width: 600px) {
     .column {
-      flex: 100%;
-      max-width: 100%;
+      flex: 100px;
+      max-width: 100px;
     }
   }
   .content-wrapper {
-    display: flex;
-    position: relative;
+    display: absolute;
+    position: absolute;
 }
 
 .text-container {
-    width: 90%;
+    width: 90px;
     padding: 20px;
     border: 1px solid #ccc;
     margin-right: 20px;
@@ -115,7 +115,7 @@ main article {
     background-color: #fffae3;
     padding: 40px;
     border: 3px solid #3b60e4;
-    width: 60%;
+    width: 925px;
     position: absolute;
     top: 0px;
     left: -100px;
@@ -127,7 +127,7 @@ main article {
     background-color: #fffae3;
     padding: 40px;
     border: 3px solid #3b60e4;
-    width: 60%;
+    width: 925px;
     position: absolute;
     top: 525px;
     left: -100px;
@@ -139,7 +139,7 @@ main article {
     background-color: #fffae3;
     padding: 40px;
     border: 3px solid #3b60e4;
-    width: 60%;
+    Width: 925px;
     position: absolute;
     top: 1010px;
     left: -100px;
@@ -152,12 +152,13 @@ body {
     background-color: #cecaf7; /* Fallback background color if the image doesn't load or cover the entire page */
           background-repeat: no-repeat;
           background-attachment: fixed;
-          background-size: cover;
           
-            background-image: url("graphics/b.jpg"); 
+          
+            background-image: url("graphics/b.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
-            
+            background-size: cover;
+            position: relative
             
     
 }
